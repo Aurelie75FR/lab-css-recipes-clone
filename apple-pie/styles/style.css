@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+body {
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*=========== Intro ===========*/
+
+
+#applePie {
+    /* position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,-10%); */
+    display: block;
+    margin: auto;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 60%);
+
+
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 9rem;
+    letter-spacing: 4px;
+}
+
+.description {
+    position: absolute;
+    top: 110vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*=========== Ingredients ===========*/
+
+#recipe {
+    position: absolute;
+    top: 130vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.line1 {
+    position: absolute;
+    top: 140vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    border-top: 3px solid gray;
+}
+
+.ingredients {
+    position: absolute;
+    top: 145vh;
+    left: 10%;
+    font-size: 2rem;
+}
+
+.list {
+    position: absolute;
+    top: 150vh;
+    left: 10%;
+    font-size: 1.5rem;
+}
+
+.line2 {
+    position: absolute;
+    top: 205vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    border-top: 3px solid gray;
+}
+
+#cooking {
+    position: absolute;
+    top: 190vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.directions {
+    position: absolute;
+    top: 210vh;
+    left: 10%;
+    font-size: 2rem;
+}
+
+.cook {
+    position: absolute;
+    top: 215vh;
+    left: 10%;
+    font-size: 1.5rem;
+}
